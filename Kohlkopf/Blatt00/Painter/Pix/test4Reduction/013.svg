@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+version="1.1" baseProfile="full" 
+width="232" height="590" >
+<line x1="134" y1="20" x2="134" y2="64" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="134" y1="64" x2="134" y2="128" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="134" y1="128" x2="134" y2="192" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="134" y1="192" x2="134" y2="236" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="134" y1="236" x2="134" y2="290" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="134" y1="290" x2="134" y2="354" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="134" y1="354" x2="134" y2="408" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="134" y1="408" x2="134" y2="452" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="134" y1="452" x2="134" y2="506" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="134" y1="506" x2="80" y2="570" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<polygon points=" 18,548 142,548 142,572 18,572" fill="rgb(170,255,170)" />
+<text x="20" y="565" font-family="courier" font-size="16" fill="rgb(0,0,0)" >s3 satisfies</text>
+<polygon points=" 68,568 92,568 92,592 68,592" fill="rgb(170,255,170)" />
+<text x="70" y="585" font-family="courier" font-size="16" fill="rgb(0,0,0)" >!x</text>
+<line x1="134" y1="506" x2="187" y2="570" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<polygon points=" 160,558 214,558 214,582 160,582" fill="rgb(170,255,170)" />
+<text x="162" y="575" font-family="courier" font-size="16" fill="rgb(0,0,0)" >false</text>
+<polygon points=" 72,484 196,484 196,508 72,508" fill="rgb(170,255,170)" />
+<text x="74" y="501" font-family="courier" font-size="16" fill="rgb(0,0,0)" >s3 satisfies</text>
+<polygon points=" 122,504 146,504 146,528 122,528" fill="rgb(170,255,170)" />
+<text x="124" y="521" font-family="courier" font-size="16" fill="rgb(0,0,0)" >!y</text>
+<polygon points=" 112,440 156,440 156,464 112,464" fill="rgb(255,255,170)" />
+<text x="114" y="457" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<polygon points=" 102,396 166,396 166,420 102,420" fill="rgb(255,255,170)" />
+<text x="104" y="413" font-family="courier" font-size="16" fill="rgb(0,0,0)" >s1-&gt;s3</text>
+<polygon points=" 72,332 196,332 196,356 72,356" fill="rgb(255,255,170)" />
+<text x="74" y="349" font-family="courier" font-size="16" fill="rgb(0,0,0)" >s2 satisfies</text>
+<polygon points=" 122,352 146,352 146,376 122,376" fill="rgb(255,255,170)" />
+<text x="124" y="369" font-family="courier" font-size="16" fill="rgb(0,0,0)" >!y</text>
+<polygon points=" 72,268 196,268 196,292 72,292" fill="rgb(255,255,170)" />
+<text x="74" y="285" font-family="courier" font-size="16" fill="rgb(0,0,0)" >s2 satisfies</text>
+<polygon points=" 126,288 140,288 140,312 126,312" fill="rgb(255,255,170)" />
+<text x="128" y="305" font-family="courier" font-size="16" fill="rgb(0,0,0)" >x</text>
+<polygon points=" 102,224 166,224 166,248 102,248" fill="rgb(255,255,170)" />
+<text x="104" y="241" font-family="courier" font-size="16" fill="rgb(0,0,0)" >s1-&gt;s2</text>
+<polygon points=" 112,180 156,180 156,204 112,204" fill="rgb(255,255,170)" />
+<text x="114" y="197" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<polygon points=" 72,96 196,96 196,120 72,120" fill="rgb(255,255,170)" />
+<text x="74" y="113" font-family="courier" font-size="16" fill="rgb(0,0,0)" >s1 satisfies</text>
+<polygon points=" 112,116 156,116 156,140 112,140" fill="rgb(255,255,170)" />
+<text x="114" y="133" font-family="courier" font-size="16" fill="rgb(0,0,0)" >[]!y</text>
+<polygon points=" 96,136 170,136 170,160 96,160" fill="rgb(255,255,170)" />
+<text x="98" y="153" font-family="courier" font-size="16" fill="rgb(0,0,0)" >visited</text>
+<polygon points=" 112,52 156,52 156,76 112,76" fill="rgb(255,255,170)" />
+<text x="114" y="69" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<polygon points=" 112,8 156,8 156,32 112,32" fill="rgb(255,255,170)" />
+<text x="114" y="25" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text></svg>

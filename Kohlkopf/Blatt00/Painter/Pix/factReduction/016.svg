@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" baseProfile="full"
+width="102" height="200">
+<line x1="35.0" y1="20.0" x2="25.0" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 18,48 32,48 32,72 18,72" fill="rgb(255,255,170)"/>
+<text x="20.0" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">5</text>
+<line x1="35.0" y1="20.0" x2="45.0" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="45.0" y1="60.0" x2="27.5" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 20,88 34,88 34,112 20,112" fill="rgb(255,255,170)"/>
+<text x="22.5" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">4</text>
+<line x1="45.0" y1="60.0" x2="62.5" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="62.5" y1="100.0" x2="62.5" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="62.5" y1="140.0" x2="52.5" y2="180.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 46,168 60,168 60,192 46,192" fill="rgb(255,170,170)"/>
+<text x="47.5" y="185.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">4</text>
+<line x1="62.5" y1="140.0" x2="72.5" y2="180.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 66,168 80,168 80,192 66,192" fill="rgb(255,170,170)"/>
+<text x="67.5" y="185.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">1</text>
+<polygon points=" 56,128 70,128 70,152 56,152" fill="rgb(255,170,170)"/>
+<text x="57.5" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">-</text>
+<polygon points=" 40,88 84,88 84,112 40,112" fill="rgb(255,255,170)"/>
+<text x="42.5" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">fact</text>
+<polygon points=" 38,48 52,48 52,72 38,72" fill="rgb(255,255,170)"/>
+<text x="40.0" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">*</text>
+<polygon points=" 28,8 42,8 42,32 28,32" fill="rgb(255,255,170)"/>
+<text x="30.0" y="25.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">*</text></svg>

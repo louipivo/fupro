@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>urtiere</title>
+<script type="text/javascript" >
+var images = new Array("morph27/001.svg","morph27/002.svg","morph27/003.svg","morph27/004.svg","morph27/005.svg","morph27/006.svg","morph27/007.svg","morph27/008.svg","morph27/009.svg","morph27/010.svg","morph27/011.svg","morph27/012.svg","morph27/013.svg","morph27/014.svg","morph27/015.svg","morph27/016.svg","morph27/017.svg","morph27/018.svg","morph27/019.svg","morph27/020.svg","morph27/021.svg","morph27/022.svg","morph27/023.svg","morph27A/001.svg","morph27A/002.svg","morph27A/003.svg","morph27A/004.svg","morph27A/005.svg","morph27A/006.svg","morph27A/007.svg","morph27A/008.svg","morph27A/009.svg","morph27A/010.svg","morph27A/011.svg","morph27A/012.svg","morph27A/013.svg","morph27A/014.svg","morph27A/015.svg","morph27A/016.svg","morph27A/017.svg","morph27A/018.svg","morph27A/019.svg","morph27A/020.svg","morph27A/021.svg","morph27A/022.svg","morph27A/023.svg","urtiere/morph27-55.png","urtiere/morph29-55.png","urtiere/morph30-55.png","urtiere/morph31-55.png","urtiere/morph32-55.png","urtiere/morph33-55.png","urtiere/morph34-55.png","urtiere/morph35-55.png","urtiere/morph36-55.png","urtiere/morph37-55.png")
+</script>
+<script type="text/javascript" src="PainterAlt.js" >
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)" >
+<input type="button" value="<" onClick="back()" > 56 pictures <input type="button" value=">" onClick="forth()" >
+<input type="button" value="go" onClick="stopGo(this)" >
+<br>
+<input id="fileSlider" type="range" min="0" max="55" value="0" onChange="showFile(this.value)" >
+<span id="file" >morph27/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="1000" onChange="showTime(this.value)" >
+<span id="time" >1000</span> millisecs
+<br>
+<img id="img" src="morph27/001.svg" width="600" height="600" >
+</img>
+</body>
+</html>

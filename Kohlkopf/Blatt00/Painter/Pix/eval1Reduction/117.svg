@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" baseProfile="full"
+width="125" height="120">
+<line x1="62.5" y1="20.0" x2="40.0" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 18,48 62,48 62,72 18,72" fill="rgb(255,255,170)"/>
+<text x="20.0" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">true</text>
+<line x1="62.5" y1="20.0" x2="85.0" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="85.0" y1="60.0" x2="85.0" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 63,88 107,88 107,112 63,112" fill="rgb(170,255,170)"/>
+<text x="65.0" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">true</text>
+<polygon points=" 68,48 102,48 102,72 68,72" fill="rgb(255,255,170)"/>
+<text x="70.0" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">not</text>
+<polygon points=" 50,8 74,8 74,32 50,32" fill="rgb(255,255,170)"/>
+<text x="52.5" y="25.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">&#92;/</text></svg>

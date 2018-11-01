@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+version="1.1" baseProfile="full" 
+width="480" height="40" >
+<polygon points=" 18,8 462,8 462,32 18,32" fill="rgb(255,170,170)" />
+<text x="20" y="25" font-family="courier" font-size="16" fill="rgb(0,0,0)" >(((x and y) or z) and x1) or y1 or z1 or !x2</text></svg>

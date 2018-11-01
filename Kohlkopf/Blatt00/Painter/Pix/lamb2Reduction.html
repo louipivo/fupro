@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>lamb2Reduction</title>
+<script type="text/javascript">
+var images = new Array("lamb2Reduction/001.svg","lamb2Reduction/002.svg","lamb2Reduction/003.svg","lamb2Reduction/004.svg","lamb2Reduction/005.svg","lamb2Reduction/006.svg","lamb2Reduction/007.svg","lamb2Reduction/008.svg","lamb2Reduction/009.svg","lamb2Reduction/010.svg","lamb2Reduction/011.svg","lamb2Reduction/012.svg","lamb2Reduction/013.svg","lamb2Reduction/014.svg","lamb2Reduction/015.svg","lamb2Reduction/016.svg","lamb2Reduction/017.svg")
+</script>
+<script type="text/javascript" src="Painter.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="|<<" onclick="backStop(this)">
+<input type="button" value="<" onclick="back()"> 17 pictures
+<input type="button" value=">" onclick="forth()">
+<input type="button" value=">>|" onclick="forthStop(this)">
+<input type="button" value="loop" onclick="loop(this)">
+<br><input id="fileSlider" type="range" min="0" max="16" value="0" onchange="showFile(this.value)">
+<span id="file">lamb2Reduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="30" onchange="showTime(this.value)">
+<span id="time">30</span> millisecs
+<br><br><br>
+<iframe id="img" src="lamb2Reduction/001.svg" width="1800" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

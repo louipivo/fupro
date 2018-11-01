@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>evalCReduction</title>
+<script type="text/javascript">
+var images = new Array("evalCReduction/001.svg","evalCReduction/002.svg","evalCReduction/003.svg","evalCReduction/004.svg","evalCReduction/005.svg","evalCReduction/006.svg","evalCReduction/007.svg","evalCReduction/008.svg","evalCReduction/009.svg","evalCReduction/010.svg","evalCReduction/011.svg","evalCReduction/012.svg","evalCReduction/013.svg","evalCReduction/014.svg","evalCReduction/015.svg","evalCReduction/016.svg","evalCReduction/017.svg","evalCReduction/018.svg","evalCReduction/019.svg","evalCReduction/020.svg","evalCReduction/021.svg","evalCReduction/022.svg","evalCReduction/023.svg","evalCReduction/024.svg","evalCReduction/025.svg","evalCReduction/026.svg","evalCReduction/027.svg","evalCReduction/028.svg","evalCReduction/029.svg","evalCReduction/030.svg","evalCReduction/031.svg","evalCReduction/032.svg","evalCReduction/033.svg","evalCReduction/034.svg","evalCReduction/035.svg","evalCReduction/036.svg","evalCReduction/037.svg","evalCReduction/038.svg","evalCReduction/039.svg","evalCReduction/040.svg","evalCReduction/041.svg","evalCReduction/042.svg","evalCReduction/043.svg","evalCReduction/044.svg","evalCReduction/045.svg","evalCReduction/046.svg","evalCReduction/047.svg","evalCReduction/048.svg","evalCReduction/049.svg","evalCReduction/050.svg","evalCReduction/051.svg","evalCReduction/052.svg","evalCReduction/053.svg","evalCReduction/054.svg","evalCReduction/055.svg","evalCReduction/056.svg","evalCReduction/057.svg","evalCReduction/058.svg","evalCReduction/059.svg","evalCReduction/060.svg","evalCReduction/061.svg","evalCReduction/062.svg","evalCReduction/063.svg","evalCReduction/064.svg","evalCReduction/065.svg","evalCReduction/066.svg","evalCReduction/067.svg","evalCReduction/068.svg","evalCReduction/069.svg","evalCReduction/070.svg","evalCReduction/071.svg","evalCReduction/072.svg","evalCReduction/073.svg","evalCReduction/074.svg","evalCReduction/075.svg","evalCReduction/076.svg","evalCReduction/077.svg","evalCReduction/078.svg","evalCReduction/079.svg","evalCReduction/080.svg","evalCReduction/081.svg","evalCReduction/082.svg","evalCReduction/083.svg","evalCReduction/084.svg","evalCReduction/085.svg","evalCReduction/086.svg","evalCReduction/087.svg")
+</script>
+<script type="text/javascript" src="Painter.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="|<<" onclick="backStop(this)">
+<input type="button" value="<" onclick="back()"> 87 pictures
+<input type="button" value=">" onclick="forth()">
+<input type="button" value=">>|" onclick="forthStop(this)">
+<input type="button" value="loop" onclick="loop(this)">
+<br><input id="fileSlider" type="range" min="0" max="86" value="0" onchange="showFile(this.value)">
+<span id="file">evalCReduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="30" onchange="showTime(this.value)">
+<span id="time">30</span> millisecs
+<br><br><br>
+<iframe id="img" src="evalCReduction/001.svg" width="1800" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

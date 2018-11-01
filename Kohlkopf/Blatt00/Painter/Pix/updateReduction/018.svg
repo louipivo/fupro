@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" baseProfile="full"
+width="112" height="84">
+<line x1="58.5" y1="20.0" x2="35.0" y2="64.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 18,52 52,52 52,76 18,76" fill="rgb(255,170,170)"/>
+<text x="20.0" y="69.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">113</text>
+<line x1="58.5" y1="20.0" x2="82.0" y2="64.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 70,52 94,52 94,76 70,76" fill="rgb(255,170,170)"/>
+<text x="72.0" y="69.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">10</text>
+<polygon points=" 52,8 66,8 66,32 52,32" fill="rgb(255,170,170)"/>
+<text x="53.5" y="25.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">+</text></svg>

@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>length1Reduction</title>
+<script type="text/javascript">
+var images = new Array("length1Reduction/001.svg","length1Reduction/002.svg","length1Reduction/003.svg","length1Reduction/004.svg","length1Reduction/005.svg","length1Reduction/006.svg","length1Reduction/007.svg","length1Reduction/008.svg","length1Reduction/009.svg","length1Reduction/010.svg","length1Reduction/011.svg","length1Reduction/012.svg","length1Reduction/013.svg","length1Reduction/014.svg","length1Reduction/015.svg","length1Reduction/016.svg","length1Reduction/017.svg","length1Reduction/018.svg","length1Reduction/019.svg","length1Reduction/020.svg","length1Reduction/021.svg","length1Reduction/022.svg","length1Reduction/023.svg")
+</script>
+<script type="text/javascript" src="PainterAlt.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="<" onclick="back()"> 23 pictures <input type="button" value=">" onclick="forth()">
+<input type="button" value="go" onclick="stopGo(this)">
+<br>
+<input id="fileSlider" type="range" min="0" max="22" value="0" onchange="showFile(this.value)">
+<span id="file">length1Reduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="1000" onchange="showTime(this.value)">
+<span id="time">1000</span> millisecs
+<br>
+<iframe id="img" src="length1Reduction/001.svg" width="1800" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

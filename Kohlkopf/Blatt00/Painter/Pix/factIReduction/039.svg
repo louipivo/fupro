@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" baseProfile="full"
+width="118" height="160">
+<line x1="60.0" y1="20.0" x2="37.5" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="37.5" y1="60.0" x2="37.5" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="37.5" y1="100.0" x2="25.0" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 18,128 32,128 32,152 18,152" fill="rgb(170,255,170)"/>
+<text x="20.0" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">2</text>
+<line x1="37.5" y1="100.0" x2="50.0" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 38,128 62,128 62,152 38,152" fill="rgb(170,255,170)"/>
+<text x="40.0" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">60</text>
+<polygon points=" 30,88 44,88 44,112 30,112" fill="rgb(170,255,170)"/>
+<text x="32.5" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">*</text>
+<polygon points=" 16,48 60,48 60,72 16,72" fill="rgb(170,255,170)"/>
+<text x="17.5" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">loop</text>
+<line x1="60.0" y1="20.0" x2="82.5" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="82.5" y1="60.0" x2="72.5" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 66,88 80,88 80,112 66,112" fill="rgb(170,255,170)"/>
+<text x="67.5" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">2</text>
+<line x1="82.5" y1="60.0" x2="92.5" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 86,88 100,88 100,112 86,112" fill="rgb(170,255,170)"/>
+<text x="87.5" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">1</text>
+<polygon points=" 76,48 90,48 90,72 76,72" fill="rgb(170,255,170)"/>
+<text x="77.5" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">-</text>
+<polygon points=" 53,8 67,8 67,32 53,32" fill="rgb(170,255,170)"/>
+<text x="55.0" y="25.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">$</text></svg>

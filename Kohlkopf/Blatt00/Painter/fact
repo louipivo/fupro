@@ -1,0 +1,3 @@
+fact(5) ;;
+
+fact(x) = ite(x>1,x*fact(x-1),1)

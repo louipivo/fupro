@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+version="1.1" baseProfile="full" 
+width="357" height="260" >
+<line x1="136" y1="20" x2="55" y2="64" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="55" y1="64" x2="55" y2="108" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="55" y1="108" x2="55" y2="152" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="55" y1="152" x2="55" y2="196" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="55" y1="196" x2="29" y2="240" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<polygon points=" 22,228 36,228 36,252 22,252" fill="rgb(170,255,170)" />
+<text x="24" y="245" font-family="courier" font-size="16" fill="rgb(0,0,0)" >y</text>
+<line x1="55" y1="196" x2="81" y2="240" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<polygon points=" 54,228 108,228 108,252 54,252" fill="rgb(170,255,170)" />
+<text x="56" y="245" font-family="courier" font-size="16" fill="rgb(0,0,0)" >false</text>
+<polygon points=" 18,184 92,184 92,208 18,208" fill="rgb(170,255,170)" />
+<text x="20" y="201" font-family="courier" font-size="16" fill="rgb(0,0,0)" >y ==&gt; x</text>
+<polygon points=" 33,140 77,140 77,164 33,164" fill="rgb(170,255,170)" />
+<text x="35" y="157" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<polygon points=" 43,96 67,96 67,120 43,120" fill="rgb(170,255,170)" />
+<text x="45" y="113" font-family="courier" font-size="16" fill="rgb(0,0,0)" >!x</text>
+<polygon points=" 33,52 77,52 77,76 33,76" fill="rgb(255,255,170)" />
+<text x="35" y="69" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<line x1="136" y1="20" x2="217" y2="64" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<polygon points=" 95,52 339,52 339,76 95,76" fill="rgb(255,255,170)" />
+<text x="97" y="69" font-family="courier" font-size="16" fill="rgb(0,0,0)" >x and ((!x and y) or !y)</text>
+<polygon points=" 114,8 158,8 158,32 114,32" fill="rgb(255,255,170)" />
+<text x="116" y="25" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text></svg>

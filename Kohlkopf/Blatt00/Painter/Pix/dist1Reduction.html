@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Pix/dist1Reduction</title>
+<script type="text/javascript">
+var images = new Array("dist1Reduction/001.svg","dist1Reduction/002.svg","dist1Reduction/003.svg","dist1Reduction/004.svg","dist1Reduction/005.svg","dist1Reduction/006.svg","dist1Reduction/007.svg","dist1Reduction/008.svg","dist1Reduction/009.svg","dist1Reduction/010.svg","dist1Reduction/011.svg","dist1Reduction/012.svg","dist1Reduction/013.svg","dist1Reduction/014.svg","dist1Reduction/015.svg","dist1Reduction/016.svg","dist1Reduction/017.svg","dist1Reduction/018.svg","dist1Reduction/019.svg","dist1Reduction/020.svg","dist1Reduction/021.svg","dist1Reduction/022.svg","dist1Reduction/023.svg","dist1Reduction/024.svg","dist1Reduction/025.svg","dist1Reduction/026.svg","dist1Reduction/027.svg","dist1Reduction/028.svg","dist1Reduction/029.svg","dist1Reduction/030.svg","dist1Reduction/031.svg","dist1Reduction/032.svg","dist1Reduction/033.svg","dist1Reduction/034.svg","dist1Reduction/035.svg","dist1Reduction/036.svg","dist1Reduction/037.svg","dist1Reduction/038.svg","dist1Reduction/039.svg","dist1Reduction/040.svg","dist1Reduction/041.svg")
+</script>
+<script type="text/javascript" src="Painter.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="|<<" onclick="backStop(this)">
+<input type="button" value="<" onclick="back()"> 41 files
+<input type="button" value=">" onclick="forth()">
+<input type="button" value=">>|" onclick="forthStop(this)">
+<input type="button" value="loop" onclick="loop(this)">
+<br><input id="fileSlider" type="range" min="0" max="40" value="0" onchange="showFile(this.value)">
+<span id="file">dist1Reduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="30" onchange="showTime(this.value)">
+<span id="time">30</span> millisecs
+<br><br><br>
+<iframe id="img" src="dist1Reduction/001.svg" width="2400" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

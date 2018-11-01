@@ -1,0 +1,17 @@
+pair(evalC(Var X:^4:+5:*Var X:^3:+11:*Var X:^2:+Con 222)(X->4),
+     evalC(5:*Con 11:+6:*Con 12:+Var X:**Var Y:**Var Z)(X->3|Y->4|Z->5));;
+
+evalC(Con(x))(F)=x;
+evalC(Var(x))(F)=F(x);
+evalC(x:+xs)(F)=evalC(x)(F)+evalC(xs)(F);
+evalC(x:**xs)(F)=evalC(x)(F)*evalC(xs)(F);
+evalC(x:-y)(F)=evalC(x)(F)-evalC(y)(F);
+evalC(x:*y)(F)=x*evalC(y)(F);
+evalC(x:^y)(F)=evalC(x)(F)^y
+
+
+
+
+
+
+

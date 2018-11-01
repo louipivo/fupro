@@ -1,0 +1,4 @@
+foldl((x,y)->x+y)(0)[2..9] ;;
+
+foldl(F)(x)[]     = x;
+foldl(F)(x)(y:ys) = foldl(F)(F(x,y))(ys)

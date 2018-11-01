@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>updateReduction</title>
+<script type="text/javascript">
+var images = new Array("updateReduction/001.svg","updateReduction/002.svg","updateReduction/003.svg","updateReduction/004.svg","updateReduction/005.svg","updateReduction/006.svg","updateReduction/007.svg","updateReduction/008.svg","updateReduction/009.svg","updateReduction/010.svg","updateReduction/011.svg","updateReduction/012.svg","updateReduction/013.svg","updateReduction/014.svg","updateReduction/015.svg","updateReduction/016.svg","updateReduction/017.svg","updateReduction/018.svg","updateReduction/019.svg")
+</script>
+<script type="text/javascript" src="PainterAlt.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="<" onclick="back()"> 19 pictures <input type="button" value=">" onclick="forth()">
+<input type="button" value="go" onclick="stopGo(this)">
+<br>
+<input id="fileSlider" type="range" min="0" max="18" value="0" onchange="showFile(this.value)">
+<span id="file">updateReduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="1000" onchange="showTime(this.value)">
+<span id="time">1000</span> millisecs
+<br><br><br>
+<iframe id="img" src="updateReduction/001.svg" width="1800" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

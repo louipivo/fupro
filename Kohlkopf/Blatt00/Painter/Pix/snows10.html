@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>snows10</title>
+<script type="text/javascript">
+var images = new Array("snows2/001.svg","snows2/002.svg","snows2/003.svg","snows2/004.svg","snows2/005.svg","snows2/006.svg","snows2/007.svg","snows2/008.svg","snows2/009.svg","snows2/008.svg","snows2/007.svg","snows2/006.svg","snows2/005.svg","snows2/004.svg","snows2/003.svg","snows2/002.svg","snows3/001.svg","snows3/002.svg","snows3/003.svg","snows3/004.svg","snows3/005.svg","snows3/006.svg","snows3/007.svg","snows3/008.svg","snows3/009.svg","snows3/008.svg","snows3/007.svg","snows3/006.svg","snows3/005.svg","snows3/004.svg","snows3/003.svg","snows3/002.svg","snows4/001.svg","snows4/002.svg","snows4/003.svg","snows4/004.svg","snows4/005.svg","snows4/006.svg","snows4/007.svg","snows4/008.svg","snows4/009.svg","snows4/008.svg","snows4/007.svg","snows4/006.svg","snows4/005.svg","snows4/004.svg","snows4/003.svg","snows4/002.svg","snows5/001.svg","snows5/002.svg","snows5/003.svg","snows5/004.svg","snows5/005.svg","snows5/006.svg","snows5/007.svg","snows5/008.svg","snows5/009.svg","snows5/008.svg","snows5/007.svg","snows5/006.svg","snows5/005.svg","snows5/004.svg","snows5/003.svg","snows5/002.svg","snows6/001.svg","snows6/002.svg","snows6/003.svg","snows6/004.svg","snows6/005.svg","snows6/006.svg","snows6/007.svg","snows6/008.svg","snows6/009.svg","snows6/008.svg","snows6/007.svg","snows6/006.svg","snows6/005.svg","snows6/004.svg","snows6/003.svg","snows6/002.svg","snows7/001.svg","snows7/002.svg","snows7/003.svg","snows7/004.svg","snows7/005.svg","snows7/006.svg","snows7/007.svg","snows7/008.svg","snows7/009.svg","snows7/008.svg","snows7/007.svg","snows7/006.svg","snows7/005.svg","snows7/004.svg","snows7/003.svg","snows7/002.svg","snows8/001.svg","snows8/002.svg","snows8/003.svg","snows8/004.svg","snows8/005.svg","snows8/006.svg","snows8/007.svg","snows8/008.svg","snows8/009.svg","snows8/008.svg","snows8/007.svg","snows8/006.svg","snows8/005.svg","snows8/004.svg","snows8/003.svg","snows8/002.svg","snows9/001.svg","snows9/002.svg","snows9/003.svg","snows9/004.svg","snows9/005.svg","snows9/006.svg","snows9/007.svg","snows9/008.svg","snows9/009.svg","snows9/008.svg","snows9/007.svg","snows9/006.svg","snows9/005.svg","snows9/004.svg","snows9/003.svg","snows9/002.svg")
+</script>
+<script type="text/javascript" src="Painter.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="|<<" onclick="backStop(this)">
+<input type="button" value="<" onclick="back()"> 128 pictures
+<input type="button" value=">" onclick="forth()">
+<input type="button" value=">>|" onclick="forthStop(this)">
+<input type="button" value=">>" onclick="go(this)">
+<br><input id="fileSlider" type="range" min="0" max="127" value="0" onchange="showFile(this.value)">
+<span id="file">snows2/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="30" onchange="showTime(this.value)">
+<span id="time">30</span> millisecs
+<br><br><br>
+<img id="img" src="snows2/001.svg" width="600" height="600">
+</img>
+</body>
+</html>

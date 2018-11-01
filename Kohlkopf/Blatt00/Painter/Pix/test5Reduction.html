@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>test5Reduction</title>
+<script type="text/javascript" >
+var images = new Array("test5Reduction/001.svg","test5Reduction/002.svg","test5Reduction/003.svg","test5Reduction/004.svg","test5Reduction/005.svg","test5Reduction/006.svg","test5Reduction/007.svg","test5Reduction/008.svg","test5Reduction/009.svg","test5Reduction/010.svg","test5Reduction/011.svg","test5Reduction/012.svg","test5Reduction/013.svg","test5Reduction/014.svg","test5Reduction/015.svg")
+</script>
+<script type="text/javascript" src="PainterAlt.js" >
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)" >
+<input type="button" value="<" onclick="back()" > 15 pictures <input type="button" value=">" onclick="forth()" >
+<input type="button" value="go" onclick="stopGo(this)" >
+<br>
+<input id="fileSlider" type="range" min="0" max="14" value="0" onchange="showFile(this.value)" >
+<span id="file" >test5Reduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="1000" onchange="showTime(this.value)" >
+<span id="time" >1000</span> millisecs
+<br>
+<iframe id="img" src="test5Reduction/001.svg" width="1800" height="900" frameborder="0" >
+</iframe>
+</body>
+</html>

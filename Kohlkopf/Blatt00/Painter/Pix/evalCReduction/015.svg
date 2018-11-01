@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" baseProfile="full"
+width="708" height="400">
+<line x1="321.71875" y1="20.0" x2="98.4375" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="98.4375" y1="60.0" x2="35.0" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 18,88 52,88 52,112 18,112" fill="rgb(255,255,170)"/>
+<text x="20.0" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">256</text>
+<line x1="98.4375" y1="60.0" x2="161.875" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="161.875" y1="100.0" x2="53.75" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="53.75" y1="140.0" x2="25.0" y2="180.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 18,168 32,168 32,192 18,192" fill="rgb(170,255,170)"/>
+<text x="20.0" y="185.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">5</text>
+<line x1="53.75" y1="140.0" x2="82.5" y2="180.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="82.5" y1="180.0" x2="45.0" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="45.0" y1="220.0" x2="45.0" y2="260.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="45.0" y1="260.0" x2="25.0" y2="300.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="25.0" y1="300.0" x2="25.0" y2="340.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 18,328 32,328 32,352 18,352" fill="rgb(170,255,170)"/>
+<text x="20.0" y="345.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">X</text>
+<polygon points=" 8,288 42,288 42,312 8,312" fill="rgb(170,255,170)"/>
+<text x="10.0" y="305.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Var</text>
+<line x1="45.0" y1="260.0" x2="65.0" y2="300.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 58,288 72,288 72,312 58,312" fill="rgb(170,255,170)"/>
+<text x="60.0" y="305.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">3</text>
+<polygon points=" 33,248 57,248 57,272 33,272" fill="rgb(170,255,170)"/>
+<text x="35.0" y="265.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">:^</text>
+<polygon points=" 18,208 72,208 72,232 18,232" fill="rgb(170,255,170)"/>
+<text x="20.0" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">evalC</text>
+<line x1="82.5" y1="180.0" x2="120.0" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="120.0" y1="220.0" x2="105.0" y2="260.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 98,248 112,248 112,272 98,272" fill="rgb(170,255,170)"/>
+<text x="100.0" y="265.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">X</text>
+<line x1="120.0" y1="220.0" x2="135.0" y2="260.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 128,248 142,248 142,272 128,272" fill="rgb(170,255,170)"/>
+<text x="130.0" y="265.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">4</text>
+<polygon points=" 113,208 127,208 127,232 113,232" fill="rgb(170,255,170)"/>
+<text x="115.0" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">&#955;</text>
+<polygon points=" 76,168 90,168 90,192 76,192" fill="rgb(170,255,170)"/>
+<text x="77.5" y="185.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">$</text>
+<polygon points=" 47,128 61,128 61,152 47,152" fill="rgb(170,255,170)"/>
+<text x="48.75" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">*</text>
+<line x1="161.875" y1="100.0" x2="270.0" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="270.0" y1="140.0" x2="232.5" y2="180.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="232.5" y1="180.0" x2="232.5" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="232.5" y1="220.0" x2="200.0" y2="260.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="200.0" y1="260.0" x2="180.0" y2="300.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 168,288 192,288 192,312 168,312" fill="rgb(255,255,170)"/>
+<text x="170.0" y="305.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">11</text>
+<line x1="200.0" y1="260.0" x2="220.0" y2="300.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="220.0" y1="300.0" x2="200.0" y2="340.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="200.0" y1="340.0" x2="200.0" y2="380.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 193,368 207,368 207,392 193,392" fill="rgb(255,255,170)"/>
+<text x="195.0" y="385.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">X</text>
+<polygon points=" 183,328 217,328 217,352 183,352" fill="rgb(255,255,170)"/>
+<text x="185.0" y="345.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Var</text>
+<line x1="220.0" y1="300.0" x2="240.0" y2="340.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 233,328 247,328 247,352 233,352" fill="rgb(255,255,170)"/>
+<text x="235.0" y="345.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">2</text>
+<polygon points=" 208,288 232,288 232,312 208,312" fill="rgb(255,255,170)"/>
+<text x="210.0" y="305.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">:^</text>
+<polygon points=" 188,248 212,248 212,272 188,272" fill="rgb(255,255,170)"/>
+<text x="190.0" y="265.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">:*</text>
+<line x1="232.5" y1="220.0" x2="265.0" y2="260.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="265.0" y1="260.0" x2="265.0" y2="300.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 248,288 282,288 282,312 248,312" fill="rgb(255,255,170)"/>
+<text x="250.0" y="305.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">222</text>
+<polygon points=" 248,248 282,248 282,272 248,272" fill="rgb(255,255,170)"/>
+<text x="250.0" y="265.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Con</text>
+<polygon points=" 220,208 244,208 244,232 220,232" fill="rgb(255,255,170)"/>
+<text x="222.5" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">:+</text>
+<polygon points=" 206,168 260,168 260,192 206,192" fill="rgb(255,255,170)"/>
+<text x="207.5" y="185.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">evalC</text>
+<line x1="270.0" y1="140.0" x2="307.5" y2="180.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="307.5" y1="180.0" x2="292.5" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 286,208 300,208 300,232 286,232" fill="rgb(255,255,170)"/>
+<text x="287.5" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">X</text>
+<line x1="307.5" y1="180.0" x2="322.5" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 316,208 330,208 330,232 316,232" fill="rgb(255,255,170)"/>
+<text x="317.5" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">4</text>
+<polygon points=" 300,168 314,168 314,192 300,192" fill="rgb(255,255,170)"/>
+<text x="302.5" y="185.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">&#955;</text>
+<polygon points=" 263,128 277,128 277,152 263,152" fill="rgb(255,255,170)"/>
+<text x="265.0" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">$</text>
+<polygon points=" 155,88 169,88 169,112 155,112" fill="rgb(255,255,170)"/>
+<text x="156.875" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">+</text>
+<polygon points=" 91,48 105,48 105,72 91,72" fill="rgb(255,255,170)"/>
+<text x="93.4375" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">+</text>
+<line x1="321.71875" y1="20.0" x2="545.0" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="545.0" y1="60.0" x2="482.5" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="482.5" y1="100.0" x2="482.5" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="482.5" y1="140.0" x2="382.5" y2="180.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="382.5" y1="180.0" x2="362.5" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 356,208 370,208 370,232 356,232" fill="rgb(255,255,170)"/>
+<text x="357.5" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">5</text>
+<line x1="382.5" y1="180.0" x2="402.5" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="402.5" y1="220.0" x2="402.5" y2="260.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 390,248 414,248 414,272 390,272" fill="rgb(255,255,170)"/>
+<text x="392.5" y="265.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">11</text>
+<polygon points=" 386,208 420,208 420,232 386,232" fill="rgb(255,255,170)"/>
+<text x="387.5" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Con</text>
+<polygon points=" 370,168 394,168 394,192 370,192" fill="rgb(255,255,170)"/>
+<text x="372.5" y="185.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">:*</text>
+<line x1="482.5" y1="140.0" x2="462.5" y2="180.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="462.5" y1="180.0" x2="442.5" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 436,208 450,208 450,232 436,232" fill="rgb(255,255,170)"/>
+<text x="437.5" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">6</text>
+<line x1="462.5" y1="180.0" x2="482.5" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="482.5" y1="220.0" x2="482.5" y2="260.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 470,248 494,248 494,272 470,272" fill="rgb(255,255,170)"/>
+<text x="472.5" y="265.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">12</text>
+<polygon points=" 466,208 500,208 500,232 466,232" fill="rgb(255,255,170)"/>
+<text x="467.5" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Con</text>
+<polygon points=" 450,168 474,168 474,192 450,192" fill="rgb(255,255,170)"/>
+<text x="452.5" y="185.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">:*</text>
+<line x1="482.5" y1="140.0" x2="582.5" y2="180.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="582.5" y1="180.0" x2="532.5" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="532.5" y1="220.0" x2="532.5" y2="260.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 526,248 540,248 540,272 526,272" fill="rgb(255,255,170)"/>
+<text x="527.5" y="265.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">X</text>
+<polygon points=" 516,208 550,208 550,232 516,232" fill="rgb(255,255,170)"/>
+<text x="517.5" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Var</text>
+<line x1="582.5" y1="180.0" x2="582.5" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="582.5" y1="220.0" x2="582.5" y2="260.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 576,248 590,248 590,272 576,272" fill="rgb(255,255,170)"/>
+<text x="577.5" y="265.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Y</text>
+<polygon points=" 566,208 600,208 600,232 566,232" fill="rgb(255,255,170)"/>
+<text x="567.5" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Var</text>
+<line x1="582.5" y1="180.0" x2="632.5" y2="220.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="632.5" y1="220.0" x2="632.5" y2="260.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 626,248 640,248 640,272 626,272" fill="rgb(255,255,170)"/>
+<text x="627.5" y="265.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Z</text>
+<polygon points=" 616,208 650,208 650,232 616,232" fill="rgb(255,255,170)"/>
+<text x="617.5" y="225.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Var</text>
+<polygon points=" 566,168 600,168 600,192 566,192" fill="rgb(255,255,170)"/>
+<text x="567.5" y="185.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">:**</text>
+<polygon points=" 470,128 494,128 494,152 470,152" fill="rgb(255,255,170)"/>
+<text x="472.5" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">:+</text>
+<polygon points=" 456,88 510,88 510,112 456,112" fill="rgb(255,255,170)"/>
+<text x="457.5" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">evalC</text>
+<line x1="545.0" y1="60.0" x2="607.5" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="607.5" y1="100.0" x2="532.5" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 526,128 540,128 540,152 526,152" fill="rgb(255,255,170)"/>
+<text x="527.5" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">X</text>
+<line x1="607.5" y1="100.0" x2="562.5" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 556,128 570,128 570,152 556,152" fill="rgb(255,255,170)"/>
+<text x="557.5" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">3</text>
+<line x1="607.5" y1="100.0" x2="592.5" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 586,128 600,128 600,152 586,152" fill="rgb(255,255,170)"/>
+<text x="587.5" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Y</text>
+<line x1="607.5" y1="100.0" x2="622.5" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 616,128 630,128 630,152 616,152" fill="rgb(255,255,170)"/>
+<text x="617.5" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">4</text>
+<line x1="607.5" y1="100.0" x2="652.5" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 646,128 660,128 660,152 646,152" fill="rgb(255,255,170)"/>
+<text x="647.5" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">Z</text>
+<line x1="607.5" y1="100.0" x2="682.5" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 676,128 690,128 690,152 676,152" fill="rgb(255,255,170)"/>
+<text x="677.5" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">5</text>
+<polygon points=" 600,88 614,88 614,112 600,112" fill="rgb(255,255,170)"/>
+<text x="602.5" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">&#955;</text>
+<polygon points=" 538,48 552,48 552,72 538,72" fill="rgb(255,255,170)"/>
+<text x="540.0" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">$</text>
+<polygon points=" 300,8 344,8 344,32 300,32" fill="rgb(255,255,170)"/>
+<text x="301.71875" y="25.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">pair</text></svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" baseProfile="full"
+width="98" height="160">
+<line x1="62.5" y1="20.0" x2="52.5" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="52.5" y1="60.0" x2="42.5" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="42.5" y1="100.0" x2="30.0" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 18,128 42,128 42,152 18,152" fill="rgb(255,170,170)"/>
+<text x="20.0" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">12</text>
+<line x1="42.5" y1="100.0" x2="55.0" y2="140.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 48,128 62,128 62,152 48,152" fill="rgb(255,170,170)"/>
+<text x="50.0" y="145.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">2</text>
+<polygon points=" 36,88 50,88 50,112 36,112" fill="rgb(255,170,170)"/>
+<text x="37.5" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">+</text>
+<line x1="52.5" y1="60.0" x2="62.5" y2="100.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 56,88 70,88 70,112 56,112" fill="rgb(255,255,170)"/>
+<text x="57.5" y="105.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">2</text>
+<polygon points=" 46,48 60,48 60,72 46,72" fill="rgb(255,255,170)"/>
+<text x="47.5" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">+</text>
+<line x1="62.5" y1="20.0" x2="72.5" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 66,48 80,48 80,72 66,72" fill="rgb(255,255,170)"/>
+<text x="67.5" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">2</text>
+<polygon points=" 56,8 70,8 70,32 56,32" fill="rgb(255,255,170)"/>
+<text x="57.5" y="25.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">+</text></svg>

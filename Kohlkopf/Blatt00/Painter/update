@@ -1,0 +1,3 @@
+update(+2)(5)(10)(111)+update(+2)(5)(10)(5) ;;
+
+update(x)(y)(z)(y0) = ite(y0==y,z,x(y0))

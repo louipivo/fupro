@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" baseProfile="full"
+width="350" height="80">
+<polygon points=" 163,8 187,8 187,32 163,32" fill="rgb(255,170,170)"/>
+<text x="165.0" y="25.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">s1</text>
+<polygon points=" 128,28 222,28 222,52 128,52" fill="rgb(255,170,170)"/>
+<text x="130.0" y="45.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">satisfies</text>
+<polygon points=" 18,48 332,48 332,72 18,72" fill="rgb(255,170,170)"/>
+<text x="20.0" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">!([](x ==&gt; y) and &lt;&gt;x and []!y)</text></svg>

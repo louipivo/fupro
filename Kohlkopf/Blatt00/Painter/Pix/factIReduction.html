@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Pix/factIReduction</title>
+<script type="text/javascript">
+var images = new Array("factIReduction/001.svg","factIReduction/002.svg","factIReduction/003.svg","factIReduction/004.svg","factIReduction/005.svg","factIReduction/006.svg","factIReduction/007.svg","factIReduction/008.svg","factIReduction/009.svg","factIReduction/010.svg","factIReduction/011.svg","factIReduction/012.svg","factIReduction/013.svg","factIReduction/014.svg","factIReduction/015.svg","factIReduction/016.svg","factIReduction/017.svg","factIReduction/018.svg","factIReduction/019.svg","factIReduction/020.svg","factIReduction/021.svg","factIReduction/022.svg","factIReduction/023.svg","factIReduction/024.svg","factIReduction/025.svg","factIReduction/026.svg","factIReduction/027.svg","factIReduction/028.svg","factIReduction/029.svg","factIReduction/030.svg","factIReduction/031.svg","factIReduction/032.svg","factIReduction/033.svg","factIReduction/034.svg","factIReduction/035.svg","factIReduction/036.svg","factIReduction/037.svg","factIReduction/038.svg","factIReduction/039.svg","factIReduction/040.svg","factIReduction/041.svg","factIReduction/042.svg","factIReduction/043.svg","factIReduction/044.svg","factIReduction/045.svg","factIReduction/046.svg","factIReduction/047.svg","factIReduction/048.svg","factIReduction/049.svg")
+</script>
+<script type="text/javascript" src="Painter.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="|<<" onclick="backStop(this)">
+<input type="button" value="<" onclick="back()"> 49 files
+<input type="button" value=">" onclick="forth()">
+<input type="button" value=">>|" onclick="forthStop(this)">
+<input type="button" value="loop" onclick="loop(this)">
+<br><input id="fileSlider" type="range" min="0" max="48" value="0" onchange="showFile(this.value)">
+<span id="file">factIReduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="30" onchange="showTime(this.value)">
+<span id="time">30</span> millisecs
+<br><br><br>
+<iframe id="img" src="factIReduction/001.svg" width="1800" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

@@ -1,0 +1,4 @@
+factI(5) ;;
+
+factI(x) = loop(1)(x);
+loop(y)(x) = ite(x>1,loop(x*y)(x-1),y)

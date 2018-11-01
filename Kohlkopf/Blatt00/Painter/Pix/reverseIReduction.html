@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>reverseIReduction</title>
+<script type="text/javascript">
+var images = new Array("reverseIReduction/001.svg","reverseIReduction/002.svg","reverseIReduction/003.svg","reverseIReduction/004.svg","reverseIReduction/005.svg","reverseIReduction/006.svg","reverseIReduction/007.svg","reverseIReduction/008.svg","reverseIReduction/009.svg","reverseIReduction/010.svg","reverseIReduction/011.svg","reverseIReduction/012.svg","reverseIReduction/013.svg","reverseIReduction/014.svg","reverseIReduction/015.svg","reverseIReduction/016.svg","reverseIReduction/017.svg","reverseIReduction/018.svg","reverseIReduction/019.svg","reverseIReduction/020.svg","reverseIReduction/021.svg","reverseIReduction/022.svg","reverseIReduction/023.svg","reverseIReduction/024.svg","reverseIReduction/025.svg")
+</script>
+<script type="text/javascript" src="PainterAlt.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="<" onclick="back()"> 25 pictures <input type="button" value=">" onclick="forth()">
+<input type="button" value="go" onclick="stopGo(this)">
+<br>
+<input id="fileSlider" type="range" min="0" max="24" value="0" onchange="showFile(this.value)">
+<span id="file">reverseIReduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="1000" onchange="showTime(this.value)">
+<span id="time">1000</span> millisecs
+<br><br><br>
+<iframe id="img" src="reverseIReduction/001.svg" width="1800" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

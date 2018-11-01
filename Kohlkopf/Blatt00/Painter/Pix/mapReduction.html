@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>mapReduction</title>
+<script type="text/javascript">
+var images = new Array("mapReduction/001.svg","mapReduction/002.svg","mapReduction/003.svg","mapReduction/004.svg","mapReduction/005.svg","mapReduction/006.svg","mapReduction/007.svg","mapReduction/008.svg","mapReduction/009.svg","mapReduction/010.svg","mapReduction/011.svg","mapReduction/012.svg","mapReduction/013.svg","mapReduction/014.svg","mapReduction/015.svg","mapReduction/016.svg","mapReduction/017.svg","mapReduction/018.svg","mapReduction/019.svg","mapReduction/020.svg","mapReduction/021.svg","mapReduction/022.svg","mapReduction/023.svg","mapReduction/024.svg","mapReduction/025.svg","mapReduction/026.svg","mapReduction/027.svg","mapReduction/028.svg","mapReduction/029.svg","mapReduction/030.svg","mapReduction/031.svg","mapReduction/032.svg","mapReduction/033.svg","mapReduction/034.svg","mapReduction/035.svg","mapReduction/036.svg","mapReduction/037.svg","mapReduction/038.svg","mapReduction/039.svg","mapReduction/040.svg","mapReduction/041.svg","mapReduction/042.svg","mapReduction/043.svg","mapReduction/044.svg","mapReduction/045.svg","mapReduction/046.svg","mapReduction/047.svg","mapReduction/048.svg","mapReduction/049.svg","mapReduction/050.svg","mapReduction/051.svg","mapReduction/052.svg","mapReduction/053.svg","mapReduction/054.svg","mapReduction/055.svg","mapReduction/056.svg","mapReduction/057.svg","mapReduction/058.svg","mapReduction/059.svg","mapReduction/060.svg","mapReduction/061.svg","mapReduction/062.svg","mapReduction/063.svg","mapReduction/064.svg","mapReduction/065.svg","mapReduction/066.svg","mapReduction/067.svg","mapReduction/068.svg","mapReduction/069.svg")
+</script>
+<script type="text/javascript" src="Painter.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="|<<" onclick="backStop(this)">
+<input type="button" value="<" onclick="back()"> 69 pictures
+<input type="button" value=">" onclick="forth()">
+<input type="button" value=">>|" onclick="forthStop(this)">
+<input type="button" value=">>" onclick="go(this)">
+<br><input id="fileSlider" type="range" min="0" max="68" value="0" onchange="showFile(this.value)">
+<span id="file">mapReduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="30" onchange="showTime(this.value)">
+<span id="time">30</span> millisecs
+<br><br><br>
+<iframe id="img" src="mapReduction/001.svg" width="1800" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

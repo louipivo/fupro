@@ -1,0 +1,5 @@
+reverseI[2,4,5,7,88] ;;
+
+reverseI(xs) = loop[](xs);
+loop(xs)(x:ys) = loop(x:xs)(ys);
+loop(xs)[]     = xs

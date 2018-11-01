@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Pix/lisaReduction</title>
+<script type="text/javascript">
+var images = new Array("lisaReduction/001.svg","lisaReduction/002.svg","lisaReduction/003.svg","lisaReduction/004.svg","lisaReduction/005.svg")
+</script>
+<script type="text/javascript" src="Painter.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="|<<" onclick="backStop(this)">
+<input type="button" value="<" onclick="back()"> 5 files
+<input type="button" value=">" onclick="forth()">
+<input type="button" value=">>|" onclick="forthStop(this)">
+<input type="button" value="loop" onclick="loop(this)">
+<br><input id="fileSlider" type="range" min="0" max="4" value="0" onchange="showFile(this.value)">
+<span id="file">lisaReduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="30" onchange="showTime(this.value)">
+<span id="time">30</span> millisecs
+<br><br><br>
+<iframe id="img" src="lisaReduction/001.svg" width="2400" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

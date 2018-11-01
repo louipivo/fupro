@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Pix/factReduction</title>
+<script type="text/javascript">
+var images = new Array("factReduction/001.svg","factReduction/002.svg","factReduction/003.svg","factReduction/004.svg","factReduction/005.svg","factReduction/006.svg","factReduction/007.svg","factReduction/008.svg","factReduction/009.svg","factReduction/010.svg","factReduction/011.svg","factReduction/012.svg","factReduction/013.svg","factReduction/014.svg","factReduction/015.svg","factReduction/016.svg","factReduction/017.svg","factReduction/018.svg","factReduction/019.svg","factReduction/020.svg","factReduction/021.svg","factReduction/022.svg","factReduction/023.svg","factReduction/024.svg","factReduction/025.svg","factReduction/026.svg","factReduction/027.svg","factReduction/028.svg","factReduction/029.svg","factReduction/030.svg","factReduction/031.svg","factReduction/032.svg","factReduction/033.svg","factReduction/034.svg","factReduction/035.svg","factReduction/036.svg","factReduction/037.svg","factReduction/038.svg","factReduction/039.svg","factReduction/040.svg","factReduction/041.svg","factReduction/042.svg","factReduction/043.svg","factReduction/044.svg","factReduction/045.svg","factReduction/046.svg","factReduction/047.svg")
+</script>
+<script type="text/javascript" src="Painter.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="|<<" onclick="backStop(this)">
+<input type="button" value="<" onclick="back()"> 47 files
+<input type="button" value=">" onclick="forth()">
+<input type="button" value=">>|" onclick="forthStop(this)">
+<input type="button" value="loop" onclick="loop(this)">
+<br><input id="fileSlider" type="range" min="0" max="46" value="0" onchange="showFile(this.value)">
+<span id="file">factReduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="30" onchange="showTime(this.value)">
+<span id="time">30</span> millisecs
+<br><br><br>
+<iframe id="img" src="factReduction/001.svg" width="1800" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

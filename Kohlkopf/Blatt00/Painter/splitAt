@@ -1,0 +1,4 @@
+splitAt(3)[5..12] ;;
+
+splitAt(0)(xs)   = ([],xs);splitAt(z)[]     = ([],[]);
+splitAt(z)(x:xs) = ((ys,zs)->(x:ys,zs)) $ splitAt(z-1)(xs)

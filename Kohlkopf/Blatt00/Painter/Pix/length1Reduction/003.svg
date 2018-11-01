@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" baseProfile="full"
+width="163" height="139">
+<line x1="104.5" y1="20.0" x2="81.5" y2="53.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="81.5" y1="53.0" x2="81.5" y2="86.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<line x1="81.5" y1="86.0" x2="30.0" y2="119.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 18,107 42,107 42,131 18,131" fill="rgb(170,255,170)"/>
+<text x="20.0" y="124.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">44</text>
+<line x1="81.5" y1="86.0" x2="61.0" y2="119.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 49,107 73,107 73,131 49,131" fill="rgb(170,255,170)"/>
+<text x="51.0" y="124.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">-5</text>
+<line x1="81.5" y1="86.0" x2="97.0" y2="119.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 80,107 114,107 114,131 80,131" fill="rgb(170,255,170)"/>
+<text x="82.0" y="124.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">222</text>
+<line x1="81.5" y1="86.0" x2="133.0" y2="119.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 121,107 145,107 145,131 121,131" fill="rgb(170,255,170)"/>
+<text x="123.0" y="124.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">29</text>
+<polygon points=" 70,74 94,74 94,98 70,98" fill="rgb(170,255,170)"/>
+<text x="71.5" y="91.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">[]</text>
+<polygon points=" 50,41 114,41 114,65 50,65" fill="rgb(170,255,170)"/>
+<text x="51.5" y="58.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">length</text>
+<line x1="104.5" y1="20.0" x2="127.5" y2="53.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 120,41 134,41 134,65 120,65" fill="rgb(170,255,170)"/>
+<text x="122.5" y="58.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">1</text>
+<polygon points=" 98,8 112,8 112,32 98,32" fill="rgb(170,255,170)"/>
+<text x="99.5" y="25.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">+</text></svg>

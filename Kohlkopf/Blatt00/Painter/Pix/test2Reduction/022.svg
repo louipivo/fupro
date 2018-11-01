@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+version="1.1" baseProfile="full" 
+width="282" height="304" >
+<line x1="166" y1="20" x2="107" y2="64" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="107" y1="64" x2="107" y2="108" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="107" y1="108" x2="107" y2="152" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="107" y1="152" x2="107" y2="196" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="107" y1="196" x2="81" y2="240" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="81" y1="240" x2="45" y2="284" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<polygon points=" 18,272 72,272 72,296 18,296" fill="rgb(255,255,170)" />
+<text x="20" y="289" font-family="courier" font-size="16" fill="rgb(0,0,0)" >false</text>
+<line x1="81" y1="240" x2="117" y2="284" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<polygon points=" 90,272 144,272 144,296 90,296" fill="rgb(255,255,170)" />
+<text x="92" y="289" font-family="courier" font-size="16" fill="rgb(0,0,0)" >false</text>
+<polygon points=" 74,228 88,228 88,252 74,252" fill="rgb(255,255,170)" />
+<text x="76" y="245" font-family="courier" font-size="16" fill="rgb(0,0,0)" >y</text>
+<line x1="107" y1="196" x2="133" y2="240" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<polygon points=" 106,228 160,228 160,252 106,252" fill="rgb(255,255,170)" />
+<text x="108" y="245" font-family="courier" font-size="16" fill="rgb(0,0,0)" >false</text>
+<polygon points=" 85,184 129,184 129,208 85,208" fill="rgb(255,255,170)" />
+<text x="87" y="201" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<polygon points=" 85,140 129,140 129,164 85,164" fill="rgb(255,255,170)" />
+<text x="87" y="157" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<polygon points=" 95,96 119,96 119,120 95,120" fill="rgb(255,255,170)" />
+<text x="97" y="113" font-family="courier" font-size="16" fill="rgb(0,0,0)" >!x</text>
+<polygon points=" 85,52 129,52 129,76 85,76" fill="rgb(255,255,170)" />
+<text x="87" y="69" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<line x1="166" y1="20" x2="226" y2="64" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="226" y1="64" x2="226" y2="108" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="226" y1="108" x2="226" y2="152" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="226" y1="152" x2="200" y2="196" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="200" y1="196" x2="200" y2="240" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<line x1="200" y1="240" x2="200" y2="284" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<polygon points=" 193,272 207,272 207,296 193,296" fill="rgb(255,170,170)" />
+<text x="195" y="289" font-family="courier" font-size="16" fill="rgb(0,0,0)" >y</text>
+<polygon points=" 188,228 212,228 212,252 188,252" fill="rgb(255,170,170)" />
+<text x="190" y="245" font-family="courier" font-size="16" fill="rgb(0,0,0)" >!x</text>
+<polygon points=" 178,184 222,184 222,208 178,208" fill="rgb(255,170,170)" />
+<text x="180" y="201" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<line x1="226" y1="152" x2="252" y2="196" stroke="rgb(255,0,0)" stroke-width="1.5" />
+<polygon points=" 240,184 264,184 264,208 240,208" fill="rgb(255,170,170)" />
+<text x="242" y="201" font-family="courier" font-size="16" fill="rgb(0,0,0)" >!y</text>
+<polygon points=" 204,140 248,140 248,164 204,164" fill="rgb(255,170,170)" />
+<text x="206" y="157" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<polygon points=" 219,96 233,96 233,120 219,120" fill="rgb(255,170,170)" />
+<text x="221" y="113" font-family="courier" font-size="16" fill="rgb(0,0,0)" >x</text>
+<polygon points=" 204,52 248,52 248,76 204,76" fill="rgb(255,255,170)" />
+<text x="206" y="69" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text>
+<polygon points=" 144,8 188,8 188,32 144,32" fill="rgb(255,255,170)" />
+<text x="146" y="25" font-family="courier" font-size="16" fill="rgb(0,0,0)" >true</text></svg>

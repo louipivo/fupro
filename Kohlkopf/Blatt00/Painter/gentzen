@@ -1,0 +1,5 @@
+not(x) /\ y /\ z \/ x /\ not(y) /\ z \/ x /\ y /\ not(z);;
+
+not(not(x)) = x;
+not(x \/ y) = not(x) /\ not(y); 
+not(x /\ y) = not(x) \/ not(y)

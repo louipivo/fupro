@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+version="1.1" baseProfile="full" 
+width="280" height="40" >
+<polygon points=" 78,-2 202,-2 202,22 78,22" fill="rgb(255,255,170)" />
+<text x="80" y="15" font-family="courier" font-size="16" fill="rgb(0,0,0)" >s1 satisfies</text>
+<polygon points=" 18,18 262,18 262,42 18,42" fill="rgb(255,255,170)" />
+<text x="20" y="35" font-family="courier" font-size="16" fill="rgb(0,0,0)" >&lt;&gt;&lt;&gt;x and [](x ==&gt; []!x)</text></svg>

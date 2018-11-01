@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" baseProfile="full"
+width="120" height="80">
+<line x1="60.0" y1="20.0" x2="35.0" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 18,48 52,48 52,72 18,72" fill="rgb(170,255,170)"/>
+<text x="20.0" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">974</text>
+<line x1="60.0" y1="20.0" x2="85.0" y2="60.0" stroke="rgb(255,0,0)" stroke-width="1.5"/>
+<polygon points=" 68,48 102,48 102,72 68,72" fill="rgb(170,255,170)"/>
+<text x="70.0" y="65.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">187</text>
+<polygon points=" 38,8 82,8 82,32 38,32" fill="rgb(170,255,170)"/>
+<text x="40.0" y="25.0" font-family="courier" font-size="16" fill="rgb(0,0,0)">pair</text></svg>

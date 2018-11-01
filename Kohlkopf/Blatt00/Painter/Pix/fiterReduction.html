@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Pix/fiterReduction</title>
+<script type="text/javascript">
+var images = new Array("fiterReduction/001.svg","fiterReduction/002.svg","fiterReduction/003.svg","fiterReduction/004.svg","fiterReduction/005.svg","fiterReduction/006.svg","fiterReduction/007.svg","fiterReduction/008.svg","fiterReduction/009.svg","fiterReduction/010.svg","fiterReduction/011.svg","fiterReduction/012.svg","fiterReduction/013.svg","fiterReduction/014.svg","fiterReduction/015.svg","fiterReduction/016.svg","fiterReduction/017.svg","fiterReduction/018.svg","fiterReduction/019.svg","fiterReduction/020.svg","fiterReduction/021.svg","fiterReduction/022.svg","fiterReduction/023.svg","fiterReduction/024.svg","fiterReduction/025.svg","fiterReduction/026.svg","fiterReduction/027.svg","fiterReduction/028.svg","fiterReduction/029.svg","fiterReduction/030.svg","fiterReduction/031.svg","fiterReduction/032.svg","fiterReduction/033.svg","fiterReduction/034.svg","fiterReduction/035.svg","fiterReduction/036.svg","fiterReduction/037.svg","fiterReduction/038.svg","fiterReduction/039.svg")
+</script>
+<script type="text/javascript" src="Painter.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="|<<" onclick="backStop(this)">
+<input type="button" value="<" onclick="back()"> 39 files
+<input type="button" value=">" onclick="forth()">
+<input type="button" value=">>|" onclick="forthStop(this)">
+<input type="button" value="loop" onclick="loop(this)">
+<br><input id="fileSlider" type="range" min="0" max="38" value="0" onchange="showFile(this.value)">
+<span id="file">fiterReduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="30" onchange="showTime(this.value)">
+<span id="time">30</span> millisecs
+<br><br><br>
+<iframe id="img" src="fiterReduction/001.svg" width="1800" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

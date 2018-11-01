@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>foldReduction</title>
+<script type="text/javascript">
+var images = new Array("foldReduction/001.svg","foldReduction/002.svg","foldReduction/003.svg","foldReduction/004.svg","foldReduction/005.svg","foldReduction/006.svg","foldReduction/007.svg","foldReduction/008.svg","foldReduction/009.svg","foldReduction/010.svg","foldReduction/011.svg","foldReduction/012.svg","foldReduction/013.svg","foldReduction/014.svg","foldReduction/015.svg","foldReduction/016.svg","foldReduction/017.svg","foldReduction/018.svg","foldReduction/019.svg","foldReduction/020.svg","foldReduction/021.svg","foldReduction/022.svg","foldReduction/023.svg","foldReduction/024.svg","foldReduction/025.svg","foldReduction/026.svg","foldReduction/027.svg","foldReduction/028.svg","foldReduction/029.svg","foldReduction/030.svg","foldReduction/031.svg","foldReduction/032.svg","foldReduction/033.svg","foldReduction/034.svg","foldReduction/035.svg","foldReduction/036.svg","foldReduction/037.svg","foldReduction/038.svg","foldReduction/039.svg","foldReduction/040.svg","foldReduction/041.svg","foldReduction/042.svg","foldReduction/043.svg","foldReduction/044.svg","foldReduction/045.svg","foldReduction/046.svg","foldReduction/047.svg","foldReduction/048.svg","foldReduction/049.svg","foldReduction/050.svg","foldReduction/051.svg","foldReduction/052.svg","foldReduction/053.svg")
+</script>
+<script type="text/javascript" src="PainterAlt.js">
+</script>
+</head>
+<body style="background-color: rgb(221,221,255)">
+<input type="button" value="<" onclick="back()"> 53 pictures <input type="button" value=">" onclick="forth()">
+<input type="button" value="go" onclick="stopGo(this)">
+<br>
+<input id="fileSlider" type="range" min="0" max="52" value="0" onchange="showFile(this.value)">
+<span id="file">foldReduction/001.svg</span>
+<br>
+<input type="range" min="0" max="2000" value="1000" onchange="showTime(this.value)">
+<span id="time">1000</span> millisecs
+<br><br><br>
+<iframe id="img" src="foldReduction/001.svg" width="1800" height="900" frameborder="0">
+</iframe>
+</body>
+</html>

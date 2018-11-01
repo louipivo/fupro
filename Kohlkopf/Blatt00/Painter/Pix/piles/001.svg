@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" baseProfile="full"
+width="152" height="112">
+<polygon points=" 28,80 52,80 52,104 28,104" fill="rgb(255,127,127)"/>
+<polygon points=" 52,80 76,80 76,104 52,104" fill="rgb(255,127,212)"/>
+<polygon points=" 52,56 76,56 76,80 52,80" fill="rgb(212,127,255)"/>
+<polygon points=" 76,80 100,80 100,104 76,104" fill="rgb(127,127,255)"/>
+<polygon points=" 76,56 100,56 100,80 76,80" fill="rgb(127,212,255)"/>
+<polygon points=" 76,32 100,32 100,56 76,56" fill="rgb(127,255,212)"/>
+<polygon points=" 100,80 124,80 124,104 100,104" fill="rgb(127,255,127)"/>
+<polygon points=" 100,56 124,56 124,80 100,80" fill="rgb(212,255,127)"/>
+<polygon points=" 100,32 124,32 124,56 100,56" fill="rgb(255,212,127)"/>
+<polygon points=" 100,8 124,8 124,32 100,32" fill="rgb(255,127,127)"/></svg>

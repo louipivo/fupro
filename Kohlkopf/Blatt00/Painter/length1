@@ -1,0 +1,4 @@
+length[3,44,-5,222,29];;
+
+length[]     = 0;
+length(x:xs) = length(xs)+1

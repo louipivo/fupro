@@ -1,0 +1,3 @@
+fact = (0->1|suc(x)->x*fact(x-1));;
+
+fact(5)

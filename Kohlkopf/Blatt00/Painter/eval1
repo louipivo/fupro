@@ -1,0 +1,9 @@
+g(a*(b+c+d)==a*b+a*c+a*d \/ not(a*(b+c+d)==a*b+a*c+a*d));;
+
+g(x \/ y) = g(x) \/ g(y); 
+g(not(x)) = not(g(x)); 
+g(x==y) = g(x)==g(y);
+g(x+y) = g(x)+g(y); 
+g(x*y) = g(x)*g(y);
+
+g(a) = 5; g(b) = 23; g(c) = 45; g(d) = 111

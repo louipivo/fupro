@@ -1,0 +1,4 @@
+map(+3)[2..9] ;;
+
+map(F)[]     = [];
+map(F)(x:xs) = F(x):map(F)(xs)
