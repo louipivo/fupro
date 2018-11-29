@@ -28,11 +28,11 @@ solutions = [ (x,y,z) | z <- [0..] , x <- [0..z] , y <- [0..z]
 
 -- Aufgabe 2 a)
 bexpr1 :: BExp String
-bexpr1 = undefined -- Durch Lösung ersetzen.
+bexpr1 = Or[(BVar"b"),(Not(BVar"b"))]
 
 -- Aufgabe 2 b)
 bexpr2 :: BExp String
-bexpr2 = undefined -- Durch Lösung ersetzen.
+bexpr2 = And[(Or[BVar"x",False_]),BVar"y"]
 
 -- Aufgabe 2 c)
 bexpr3 :: BExp String
@@ -42,8 +42,8 @@ bexpr3 = undefined -- Durch Lösung ersetzen.
 -- Vorgabe Aufgabe 3. Die Vorgabe darf nicht geändert werden.
 data PosNat = One | Succ' PosNat deriving Show
 
-toInt :: PosNat -> Int
-toInt = foldPosNat intAlg
+--toInt :: PosNat -> Int
+--toInt = foldPosNat intAlg
 
 -- Aufgabe 3 a)
 data PosNatSig x = PosNatSig
