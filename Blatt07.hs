@@ -15,8 +15,7 @@ import Expr
 
 -- Aufgabe 1 a)
 expr :: Exp String
-expr = undefined -- Durch Lösung ersetzen.
-
+expr = Sum [5 :* Var "x", 3 :* (Var "y" :^ 2), Con 10]
 -- Aufgabe 1 b)
 solutions :: [(Int,Int,Int)]
 {-
@@ -28,15 +27,15 @@ solutions = [ (x,y,z) | z <- [0..] , x <- [0..z] , y <- [0..z]
 
 -- Aufgabe 2 a)
 bexpr1 :: BExp String
-bexpr1 = Or[(BVar"b"),(Not(BVar"b"))]
+bexpr1 = Or [(BVar "b"), (Not (BVar "b"))]
 
 -- Aufgabe 2 b)
 bexpr2 :: BExp String
-bexpr2 = And[(Or[BVar"x",False_]),BVar"y"]
+bexpr2 = And [(Or [BVar "x", False_]), BVar "y"]
 
 -- Aufgabe 2 c)
-bexpr3 :: BExp String
-bexpr3 = undefined -- Durch Lösung ersetzen.
+--bexpr3 :: BExp String
+--bexpr3 = And[BVar "b", (or [Exp "x" :<= Sum([Exp "x" 10])])]
 
 
 -- Vorgabe Aufgabe 3. Die Vorgabe darf nicht geändert werden.
