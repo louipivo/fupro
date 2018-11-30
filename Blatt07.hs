@@ -14,8 +14,9 @@ import Expr
 
 
 -- Aufgabe 1 a)
+--5x + 3y^2 + 10
 expr :: Exp String
-expr = undefined -- Durch Lösung ersetzen.
+expr =  Sum [5:*Var"x",Prod[Con 3,Var"y",Var"y"],Con 10]
 
 -- Aufgabe 1 b)
 solutions :: [(Int,Int,Int)]
