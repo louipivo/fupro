@@ -1,0 +1,87 @@
+module Blatt08 where
+
+import Coalg (Bintree(..),leaf,btree1,btree4)
+
+-- Vorgegebene Datentypen dürfen nicht geändert werden.
+data Nat = Zero | Succ Nat
+data PosNat = One | Succ' PosNat
+data Int' = Zero' | Plus PosNat | Minus PosNat
+data Edge = Links | Rechts deriving Show
+type Node = [Edge]
+
+-- Aufgabe 8.1 a)
+class Gen a where genDrop :: a -> [b] -> [b]
+
+-- Aufgabe 8.1 b)
+instance Gen (Int) where
+  genDrop 0 s = s
+  genDrop n (_:s) | n > 0 = genDrop (n-1) s
+  genDrop _ [] = []
+
+instance Gen (Nat) where
+  genDrop Zero s = s
+  genDrop Succ(n) (_:s) = genDrop n s
+  genDrop _ [] = []
+
+instance Gen (PosNat) where
+  genDrop One s = s
+  genDrop Succ'(n) (_:s) = genDrop n s
+  genDrop Succ(n) (_:s) = genDrop n s
+
+
+-- Aufgabe 8.2 a)
+instance Enum Int' where
+  toEnum  0 = Zero'
+  toEnum n | n > 0 = Succ' (toEnum (n-1))
+  fromEnum Zero' = 0
+  fromEnum (Succ' n) = fromEnum n + 1
+
+-- Aufgabe 8.2 b)
+instance Num Int' where
+  fromInteger = toEnum . fromInteger
+  negate (Plus a) = Minus a
+  negate (Minus a) = Plus a
+  signum Zero' = Zero'
+  abs n = n
+  (+) n m = Succ' (n + m)
+  (+) Zero' n = n
+  {-(Succ' n) (+) m = Succ' (n + m)
+  Zero' (+) n = n
+  (Succ' n) (*) m = m + (n*m)
+  Zero' (*) n = Zero'
+-}
+instance Eq Int' where
+  -- Zero' (==) Zero' = True
+  -- Succ' n (==) Succ' m = n == m
+  -- _ (==) _ = False
+
+instance Ord Int' where
+  -- Succ' n (<=) Succ' m = n <= m
+  -- Zero' (<=) _ = True
+  -- _ (<=) _ = False
+
+instance Show Int' where
+  show = show . fromEnum
+
+-- Aufgabe 8.2 c)
+-- Mögliche Lösung von Übungsblatt 5.
+-- Kann durch die eigene Lösung ersetzt werden.
+-- Ändern Sie den Typ in [(Int',Int',Int')].
+solutions :: [(Int',Int',Int')]
+solutions = [ (x,y,z) | z <- [0..] , x <- [0..z] , y <- [0..z]
+            , 5*x + 3*y^2 + 10 == z ]
+
+
+
+
+-- Aufgabe 8.3 a)
+sizeBintree :: Bintree a -> Int
+sizeBintree = undefined -- Durch Lösung ersetzen.
+
+-- Aufgabe 8.3 b)
+zipBintree :: Bintree a -> Bintree b -> Bintree (a,b)
+zipBintree = undefined -- Durch Lösung ersetzen.
+
+-- Aufgabe 8.3 c)
+getSubbintree :: Bintree a -> Node -> Maybe (Bintree a)
+getSubbintree = undefined -- Durch Lösung ersetzen.
