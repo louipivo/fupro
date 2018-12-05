@@ -16,7 +16,7 @@ drop _ [] = [] -}
 
 class GenDrop a where genDrop :: a -> [b] -> [b]
 -- Aufgabe 8.1 b)
-instance GenDrop (Int) where	
+instance GenDrop (Int) where
 	genDrop 0 s = s
 	genDrop n (_:s) | n > 0 = genDrop (n-1) s
 	genDrop _ [] = []
@@ -51,6 +51,7 @@ instance Num Int' where
   signum Zero' = Zero'
   abs n = n
   (+) n m = toEnum(fromEnum(n) + fromEnum(m))
+  (*) n m = toEnum(fromEnum(n) * fromEnum(m))
   --(+) Zero' n = n
   {-(Succ' n) (+) m = Succ' (n + m)
   Zero' (+) n = n
@@ -58,9 +59,9 @@ instance Num Int' where
   Zero' (*) n = Zero'
 -}
 instance Eq Int' where
-  -- Zero' (==) Zero' = True
-  -- Succ' n (==) Succ' m = n == m
-  -- _ (==) _ = False
+  -- (==) Zero' Zero' = True
+  -- (==) (Succ' m) (Succ' n) = fromEnum(n) == fromEnum(m)
+  -- (==) _ _ = False
 
 instance Ord Int' where
   -- Succ' n (<=) Succ' m = n <= m
