@@ -15,7 +15,7 @@ drop n (_:s) | n > 0 = drop (n-1) s
 drop _ [] = [] -}
 
 class GenDrop a where genDrop :: a -> [b] -> [b]
-instance GenDrop (Int) where	
+instance GenDrop (Int) where
 	genDrop 0 s = s
 	genDrop n (_:s) | n > 0 = genDrop (n-1) s
 	genDrop _ [] = []
@@ -42,9 +42,11 @@ instance GenDrop (Int') where
 -- Aufgabe 8.2 a)
 instance Enum Int' where
   toEnum  0 = Zero'
-  toEnum n | n > 0 = Succ' (toEnum (n-1))
-  fromEnum Zero' = 0
-  fromEnum (Succ' n) = fromEnum n + 1
+  toEnum n | n > 0 = (Plus (Succ'(toEnum (n-1))))
+           | n < 0 = (Minus (Succ'(toEnum (n+1))))
+  --fromEnum Zero' = 0
+  fromEnum (Plus (Succ' n)) = (fromEnum n) + 1
+  fromEnum (Minus (Succ' n)) = (fromEnum n) - 1
 
 -- Aufgabe 8.2 b)
 instance Num Int' where
@@ -53,8 +55,8 @@ instance Num Int' where
   negate (Minus a) = Plus a
   signum Zero' = Zero'
   abs n = n
-  (+) n m = Succ' (n + m)
-  (+) Zero' n = n
+  (+) n m = toEnum(fromEnum(n) + fromEnum(m))
+  --(+) Zero' n = n
   {-(Succ' n) (+) m = Succ' (n + m)
   Zero' (+) n = n
   (Succ' n) (*) m = m + (n*m)
