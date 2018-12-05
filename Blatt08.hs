@@ -41,32 +41,43 @@ instance GenDrop (Int') where
 
 -- Aufgabe 8.2 a)
 instance Enum Int' where
-  toEnum = undefined -- Durch Lösung ersetzen.
-  fromEnum = undefined -- Durch Lösung ersetzen.
+  toEnum  0 = Zero'
+  toEnum n | n > 0 = Succ' (toEnum (n-1))
+  fromEnum Zero' = 0
+  fromEnum (Succ' n) = fromEnum n + 1
 
 -- Aufgabe 8.2 b)
 instance Num Int' where
-  fromInteger = undefined -- Durch Lösung ersetzen.
-  negate = undefined -- Durch Lösung ersetzen.
-  signum = undefined -- Durch Lösung ersetzen.
-  abs = undefined -- Durch Lösung ersetzen.
-  (+) = undefined -- Durch Lösung ersetzen.
-  (*) = undefined -- Durch Lösung ersetzen.
-
+  fromInteger = toEnum . fromInteger
+  negate (Plus a) = Minus a
+  negate (Minus a) = Plus a
+  signum Zero' = Zero'
+  abs n = n
+  (+) n m = Succ' (n + m)
+  (+) Zero' n = n
+  {-(Succ' n) (+) m = Succ' (n + m)
+  Zero' (+) n = n
+  (Succ' n) (*) m = m + (n*m)
+  Zero' (*) n = Zero'
+-}
 instance Eq Int' where
-  (==) = undefined -- Durch Lösung ersetzen.
+  -- Zero' (==) Zero' = True
+  -- Succ' n (==) Succ' m = n == m
+  -- _ (==) _ = False
 
 instance Ord Int' where
-  (<=) = undefined -- Durch Lösung ersetzen.
+  -- Succ' n (<=) Succ' m = n <= m
+  -- Zero' (<=) _ = True
+  -- _ (<=) _ = False
 
 instance Show Int' where
-  show = undefined -- Durch Lösung ersetzen.
+  show = show . fromEnum
 
 -- Aufgabe 8.2 c)
 -- Mögliche Lösung von Übungsblatt 5.
 -- Kann durch die eigene Lösung ersetzt werden.
 -- Ändern Sie den Typ in [(Int',Int',Int')].
-solutions :: [(Int,Int,Int)]
+solutions :: [(Int',Int',Int')]
 solutions = [ (x,y,z) | z <- [0..] , x <- [0..z] , y <- [0..z]
             , 5*x + 3*y^2 + 10 == z ]
 

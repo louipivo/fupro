@@ -16,8 +16,12 @@ import Expr
 -- Aufgabe 1 a)
 --5x + 3y^2 + 10
 expr :: Exp String
+<<<<<<< HEAD
 expr =  Sum [5:*Var"x",Prod[Con 3,Var"y",Var"y"],Con 10]
 
+=======
+expr = Sum [5 :* Var "x", 3 :* (Var "y" :^ 2), Con 10]
+>>>>>>> 81e744d7e183664128ba5c452fd5d59342d32306
 -- Aufgabe 1 b)
 solutions :: [(Int,Int,Int)]
 {-
@@ -29,15 +33,15 @@ solutions = [ (x,y,z) | z <- [0..] , x <- [0..z] , y <- [0..z]
 
 -- Aufgabe 2 a)
 bexpr1 :: BExp String
-bexpr1 = Or[(BVar"b"),(Not(BVar"b"))]
+bexpr1 = Or [(BVar "b"), (Not (BVar "b"))]
 
 -- Aufgabe 2 b)
 bexpr2 :: BExp String
-bexpr2 = And[(Or[BVar"x",False_]),BVar"y"]
+bexpr2 = And [(Or [BVar "x", False_]), BVar "y"]
 
 -- Aufgabe 2 c)
-bexpr3 :: BExp String
-bexpr3 = undefined -- Durch Lösung ersetzen.
+--bexpr3 :: BExp String
+--bexpr3 = And[BVar "b", (or [Exp "x" :<= Sum([Exp "x" 10])])]
 
 
 -- Vorgabe Aufgabe 3. Die Vorgabe darf nicht geändert werden.
