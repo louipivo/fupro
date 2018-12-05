@@ -15,6 +15,8 @@ drop n (_:s) | n > 0 = drop (n-1) s
 drop _ [] = [] -}
 
 class GenDrop a where genDrop :: a -> [b] -> [b]
+-- Aufgabe 8.1 b)
+-- Lösung hier einfügen.
 instance GenDrop (Int) where	
 	genDrop 0 s = s
 	genDrop n (_:s) | n > 0 = genDrop (n-1) s
@@ -33,14 +35,8 @@ instance GenDrop (Int') where
 	genDrop (Minus (Succ' n))(_:s) = genDrop n s
 	genDrop _ [] = []
 
--- Aufgabe 8.1 b)
--- Lösung hier einfügen.
-
-
-
-
 -- Aufgabe 8.2 a)
-instance Enum Int' where
+{-instance Enum Int' where
   toEnum  0 = Zero'
   toEnum n | n > 0 = Succ' (toEnum (n-1))
   fromEnum Zero' = 0
@@ -81,12 +77,15 @@ solutions :: [(Int',Int',Int')]
 solutions = [ (x,y,z) | z <- [0..] , x <- [0..z] , y <- [0..z]
             , 5*x + 3*y^2 + 10 == z ]
 
-
-
-
+-}
 -- Aufgabe 8.3 a)
+{-data Bintree a = Empty | Fork a (Bintree a) (Bintree a)
+leaf :: a -> Bintree a
+leaf a = Fork a Empty Empty-}
 sizeBintree :: Bintree a -> Int
-sizeBintree = undefined -- Durch Lösung ersetzen.
+sizeBintree (Fork a b c) = (sizeBintree b) + (sizeBintree c) + 1
+sizeBintree (Empty) = 0
+
 
 -- Aufgabe 8.3 b)
 zipBintree :: Bintree a -> Bintree b -> Bintree (a,b)
