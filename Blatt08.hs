@@ -35,14 +35,22 @@ instance GenDrop (Int') where
 	genDrop _ [] = []
 
 -- Aufgabe 8.2 a)
-{-instance Enum Int' where
-  toEnum  0 = Zero'
-  toEnum n | n > 0 = (Plus (Succ'(toEnum (n-1))))
-           | n < 0 = (Minus (Succ'(toEnum (n+1))))
-  --fromEnum Zero' = 0
-  fromEnum (Plus (Succ' n)) = (fromEnum n) + 1
-  fromEnum (Minus (Succ' n)) = (fromEnum n) - 1
 
+--map fromEnum [Minus One .. Plus (Succ' One)] { [-1,0,1,2]
+instance Enum Int' where
+  toEnum  0 = Zero'
+  toEnum n | n > 0 = (Plus (toEnum1 (n)))
+           | n < 0 = (Minus (toEnum1 (-n)))
+		   where
+	toEnum1:: Int -> PosNat
+	toEnum1 1 = One
+	toEnum1 n = Succ' (toEnum1(n-1))
+	
+  --fromEnum One = 1
+  
+  --fromEnum (Plus (Succ' n)) = (fromEnum n) + 1
+  --fromEnum (Minus (Succ' n)) = (fromEnum n) - 1
+{-
 -- Aufgabe 8.2 b)
 instance Num Int' where
   fromInteger = toEnum . fromInteger
