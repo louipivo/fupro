@@ -11,8 +11,11 @@ import Coalg
 
 -- Aufgabe 9.2 a)
 productA :: Tree Int -> Int
-productA = undefined -- Durch Lösung ersetzen.
-
+productA (F a ts) = a * (map productA ts)
+productA _ = 1
 --  Aufgabe 9.2 b)
+{-
 preorderT :: Tree a -> [a]
-preorderT = undefined -- Durch Lösung ersetzen.
+preorderT (F a ts) = a : concatMap (preorderT ts)
+preorderT (V a) = a
+preorderT _ = []-}
