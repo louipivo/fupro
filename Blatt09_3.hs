@@ -17,12 +17,9 @@ import Coalg
   )
 
 -- Aufgabe 9.3 a)
-{-sizeBintree :: Bintree a -> Int
-sizeBintree (Fork a b c) = (sizeBintree b) + (sizeBintree c) + 1
-sizeBintree (Empty) = 0-}
 sizeBintree :: Bintree a -> Int
-sizeBintree = foldBin 
-
+--sizeBintree = foldTree 1 (+) 0 (+)
+sizeBintree = foldBin $ BinSig {empty_ = 0, fork = \a l r -> 1 + l + r }
 -- Aufgabe 9.3 b)
-labelA :: Tree a -> Node -> a
-labelA = undefined -- Durch Lösung ersetzen.
+{-labelA :: Tree a -> Node -> a
+labelA = foldTree $ TreeSig {var_ = , fun = \ -> -}
