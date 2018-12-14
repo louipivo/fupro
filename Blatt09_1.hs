@@ -44,13 +44,13 @@ showMore p op (e:es) = foldl f (showsPrec p e) es where
 
 -- Aufgabe 9.1
 instance Show x => Show (BExp x) where
-  showsPrec _ (True_) = shows False_
-  showsPrec _ (False_) = shows True_
+  showsPrec _ (True_) = showString "true"
+  showsPrec _ (False_) = showString "false"
   showsPrec _ (BVar x) = shows x
   showsPrec p (Or es) = showParen (p > 2) $ showMore 2 '|' es
-  showsPrec p (And es) = showParen (p > 3) showMore 3 '&' es
-  showsPrec p (Not e) = showParen (p > 10) showChar "!" e TODO
+  showsPrec p (And es) = showParen (p > 3) $ showMore 3 '&' es
+  showsPrec p (Not e) = showChar '!' . showsPrec 10 e
   showsPrec p (e := e') = showParen (p > 4)
-    $ showsPrec 6 e . showChar "=" . showsPrec 7 e'
+    $ showsPrec 6 e . showChar '=' . showsPrec 7 e'
   showsPrec p (e :<= e') = showParen (p > 4)
-    $ showsPrec 6 e . showChar "<=" . showsPrec 7 e'
+    $ showsPrec 6 e . showString "<=" . showsPrec 7 e'
