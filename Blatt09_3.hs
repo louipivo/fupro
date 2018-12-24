@@ -18,7 +18,6 @@ import Coalg
 
 -- Aufgabe 9.3 a)
 sizeBintree :: Bintree a -> Int
---sizeBintree = foldTree 1 (+) 0 (+)
 sizeBintree = foldBin $ BinSig {empty_ = 0, fork = \a l r -> 1 + l + r }
 -- Aufgabe 9.3 b)
 {-labelA :: Tree a -> Node -> a
